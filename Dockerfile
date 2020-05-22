@@ -1,4 +1,4 @@
-FROM node:dubnium-alpine
+FROM node:erbium-alpine
 
 RUN apk add --no-cache git
 
