@@ -5,7 +5,7 @@ RUN apk add --no-cache git
 RUN npm i -g npm@6.9.0
 RUN npm install -g firebase-tools@7.11.0
 
-ARG FILE='linux-x64-64_binding.node'
+ARG FILE='linux-x64-72_binding.node'
 # install node-sass
 RUN \
   mkdir /opt/node-sass/ && \
